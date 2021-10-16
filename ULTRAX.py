@@ -1,7 +1,7 @@
 # COPYRIGHT (C) 2021 BY LEGENDX22
 """
 """
-# MADE BY LEGENDX22 🔥
+# MADE BY Manish 🔥
 # MY IDEA H YRR DONT KANG THIS PLEASE
 import asyncio
 import os
@@ -22,19 +22,17 @@ import time
 MESSAGE = os.environ.get("ALIVE_MSG", None)
 if MESSAGE is None:
    MSG = '''
-🔥🔥 THE ULTRA X IS ONLINE 🔥🔥
-I AM HERE FOR MY MASTER PROTECTION
-I AM NON HACKEBLE + BEST USERBOT
-THANKS MASTER TO DEPLOY ME
+🔥🔥 THE Koli X IS ONLINE 🔥🔥
+I AM HERE FOR MY MASTER PROTECTION + BEST USERBOT
 '''
 else:
   MSG = MESSAGE
 botnickname = os.environ.get("BOT_NICK_NAME")
 ALIVE_NAME = os.environ.get("ALIVE_NAME")
-BOT = str(botnickname) if botnickname else "υℓтяα χ"
-NAME = str(ALIVE_NAME) if ALIVE_NAME else "υℓтяα χ"
+BOT = str(botnickname) if botnickname else "Koli χ"
+NAME = str(ALIVE_NAME) if ALIVE_NAME else "Koli χ"
 PHOTO = os.environ.get("ALIVE_PHOTTO", None)
-ULTRAX = "[ULTRA X](https://t.me/ULTRAXOT)"
+ULTRAX = "[Owner](https://t.me/Loltage)"
 VERSION = "0.0.1"
 ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
 ALIVE_BOT_USERNAME = os.environ.get("ALIVE_BOT_USERNAME", None)
