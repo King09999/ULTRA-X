@@ -103,7 +103,7 @@ async def inline_legend(event):
   jnl = bot.me.first_name
   LEGENDX = [[Button.inline("Fʀɪᴇɴᴅ", data='frnd_bsdk'),Button.inline("Sᴘᴀᴍ", data='chutia')]]
   LEGENDX += [[Button.inline("Wᴜᴛ's ᴛʜɪs ?",data='noobda')]]
-  await event.edit(f"Hᴇʟʟᴏ **{acha}**, ᴍʏ sᴇʟғ UʟᴛʀᴀX, ʜᴇʀᴇ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ **{jnl}**!", buttons=LEGENDX)
+  await event.edit(f"Hᴇʟʟᴏ **{acha}**, ᴍʏ sᴇʟғ KoliX, ʜᴇʀᴇ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ **{jnl}**!", buttons=LEGENDX)
   
 @xbot.on(events.callbackquery.CallbackQuery(data=re.compile(b'nino')))
 async def _(event):
