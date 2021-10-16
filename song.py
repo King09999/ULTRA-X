@@ -93,8 +93,8 @@ async def Inline_legendx(event):
 @xbot.on(events.callbackquery.CallbackQuery(data=re.compile(b'noobda')))
 async def noobda (event):
   global back
-  Piro = [[Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/UltraXchaT"), Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/UltraXoT")]]
-  Piro += [[Button.url("Rᴇᴘᴏ", "https://github.com/ULTRA-OP/ULTRA-X")]]
+  Piro = [[Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/koliXsupportchat"), Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/koliXsupport")]]
+  Piro += [[Button.url("Owner", "https://t.me/Loltage")]]
   Piro += back
   await event.edit("**Cʜᴇᴄᴋɪɴɢ ᴛʜᴇsᴇ ʟɪɴᴋs**", buttons=Piro)
 @xbot.on(events.callbackquery.CallbackQuery(data=re.compile(b'pm_back')))
